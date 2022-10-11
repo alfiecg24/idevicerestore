@@ -90,6 +90,7 @@ make libusb
 
 Now you can build and install it:
 ```shell
+cd ...
 ./autogen.sh
 make
 sudo make install
