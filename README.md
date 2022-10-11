@@ -82,6 +82,12 @@ git clone --recursive https://github.com/alfiecg24/idevicerestore.git
 cd idevicerestore
 ```
 
+Firstly, compile gaster:
+```shell
+cd idevicerestore/src/gaster
+make libusb
+```
+
 Now you can build and install it:
 ```shell
 ./autogen.sh
