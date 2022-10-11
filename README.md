@@ -4,6 +4,10 @@
 
 ![](https://github.com/libimobiledevice/idevicerestore/actions/workflows/build.yml/badge.svg)
 
+## About this fork
+
+This fork of idevicerestore allows you to use the checkm8 exploit to place your device into pwned DFU mode
+
 ## Features
 
 The idevicerestore application is a full reimplementation of all granular steps
@@ -74,7 +78,7 @@ clone [these libraries](https://github.com/libimobiledevice/) separately and rep
 
 Continue with cloning the actual project repository:
 ```shell
-git clone https://github.com/libimobiledevice/idevicerestore.git
+git clone --recursive https://github.com/alfiecg24/idevicerestore.git
 cd idevicerestore
 ```
 
